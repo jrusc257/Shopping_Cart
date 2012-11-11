@@ -1,0 +1,47 @@
+/***********************
+		HEADER
+***********************/
+
+div#header{
+	width:	500px;
+	height:	200px;
+	/* Center Header */
+	margin:	auto;
+	display:	inline;
+	background-color:	blue;
+}
+/* logo at top left */
+div#logoContainer{
+	float:	left;
+}
+/* Slogan at top left */
+div#header div#slogan{
+	float:	left;
+}
+/*View Cart Link at right */
+div#header div#links{
+	float:	right;
+}
+
+/***********************
+		CONTENT
+***********************/
+/* Center Content */
+div#content{
+	/* Golden Ratio Width */
+	width:	61.803398875%;
+	/* Center Content */
+	margin:	auto;
+	display:	inline;
+}
+/***********************
+		FOOTER
+***********************/
+/* Copyright information */
+div#footer{
+	/* Golden Ratio Width */
+	width:	61.803398875%;
+	/* Center Footer */
+	margin:	auto;
+	display:	inline;
+}
